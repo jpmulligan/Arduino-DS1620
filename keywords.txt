@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For DS1620
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DS1620	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+read_temp	KEYWORD2
+write_th	KEYWORD2
+write_tl	KEYWORD2
+read_th 	KEYWORD2
+read_tl         KEYWORD2
+read_counter    KEYWORD2
+read_slope      KEYWORD2
+start_conv      KEYWORD2
+stop_conv       KEYWORD2
+write_config    KEYWORD2
+read_config     KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

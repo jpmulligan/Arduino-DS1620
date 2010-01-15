@@ -1,0 +1,16 @@
+Arduino DS1620 Library 0.1
+Copyright (C) 2009 John P. Mulligan. All rights reserved.
+
+To install:
+
+1.  Download latest Arduino DS1620 Library:
+
+      http://wiki.thinkhole.org/ds1620
+
+2.  Unzip to directory called DS1620 inside Arduino libraries directory:
+
+    ./arduino-<version>/hardware/libraries/DS1620
+
+3.  Run Arduino IDE.  You should be able to add the code to your Sketch by going
+    to Sketch | Import Library | DS1620.
+    
