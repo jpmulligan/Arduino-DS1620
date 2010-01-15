@@ -1,0 +1,11 @@
+Arduino DS1620 Library 0.1
+Copyright (C) 2009 John P. Mulligan. All rights reserved.
+
+This is an Arduino library for use with the Dallas Semiconductor DS1620 Digital
+Thermometer and Thermostat.  Uses 3-wire serial communication.
+
+The latest version of this library can be found at the following address:
+
+  http://wiki.thinkhole.org/ds1620
+
+See INSTALL file for installation instructions.
