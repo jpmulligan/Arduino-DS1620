@@ -66,14 +66,27 @@ DS1620::DS1620(int DQ, int CLK, int RST)
     
 int DS1620::read_temp()
 {
-    int t;
-    
+    short t;
+
     rst_start();
     send_command(READ_TEMP); // Next 9 clock cycles, last temp conv result
-    t = receive_data()/2;
+    t = (short)receive_data();
     rst_stop();
+
+    // Check sign bit from Temp
+    if (t & 0x0100)
+    {
+        // Temperature is negative
+        // According to specification: [256 (0x0100) - Temp]
+        t &= 0x00FF; // Remove the sign bit
+        t = 0x0100 - t;
+        t *= (short)-1;
+    }
+
+    t /= 2;
+
     return(t);
-} 
+}
 
 void DS1620::write_th(int high_temp)
 {
