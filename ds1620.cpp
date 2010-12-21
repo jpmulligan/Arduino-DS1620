@@ -1,5 +1,5 @@
 /*
-  Arduino DS1620 Library 0.2
+  Arduino DS1620 Library 0.1
   Copyright (C) 2009 John P. Mulligan. All rights reserved.
 
   This program is free software: you can redistribute it and/or modify
