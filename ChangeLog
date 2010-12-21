@@ -1,5 +1,11 @@
 Arduino DS1620 Library
-Copyright (C) 2009 John P. Mulligan. All rights reserved.
+Copyright (C) 2010 John P. Mulligan. All rights reserved.
 
 2009-05-12
-    - Initial release
+    
+    * Initial release, version 0.1
+
+2010-12-20 
+
+    * ds1620.cpp:  Fixed negative temp bug by checking sign bit, from ringp
+    * Updated to version 0.2
